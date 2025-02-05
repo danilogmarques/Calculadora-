@@ -6,10 +6,11 @@
     margin: 0;
     padding: 0;
 }
-.fundo{
-    background-color: blueviolet;
+/* .fundo{
+   
+   background-color: lawngreen;
     height: 100%;
-}
+} */
 .calculadora{
     position: absolute;
     background-color: black;
@@ -47,13 +48,28 @@
     cursor: pointer;  
 }
 .rowspan:hover{
-    color: aliceblue;
+    color: white;
     background-color: black;
 }
 #resultado{
-    background-color: beige;
+    display: flex;
+    background-color: white;
     width: 100%;
-    height: 50px;
+    height: 40px;
     font-size: 25px;
-    color: blue;
+    color: black;
+}
+/* .titulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+} */
+#marca{
+    color: black;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.corpo{
+    background-image: url(../Calculadora-/img/Anos90.jpg);
 }

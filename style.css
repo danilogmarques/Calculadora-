@@ -1,16 +1,16 @@
 /* #resultado{
     background-color: aqua;
-} */
+}
 
 *{
     margin: 0;
     padding: 0;
 }
-/* .fundo{
+.fundo{
    
    background-color: lawngreen;
     height: 100%;
-} */
+}
 .calculadora{
     position: absolute;
     background-color: black;
@@ -59,11 +59,11 @@
     font-size: 25px;
     color: black;
 }
-/* .titulo{
+.titulo{
     display: flex;
     justify-content: center;
     color: white;
-} */
+}
 #marca{
     color: black;
     display: flex;
@@ -72,4 +72,4 @@
 }
 .corpo{
     background-image: url(../Calculadora-/img/Anos90.jpg);
-}
+} */

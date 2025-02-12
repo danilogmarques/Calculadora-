@@ -1,75 +1,48 @@
-/* #resultado{
-    background-color: aqua;
-} */
-
 *{
     margin: 0;
     padding: 0;
 }
-/* .fundo{
-   
-   background-color: lawngreen;
-    height: 100%;
-} */
-.calculadora{
-    position: absolute;
-    background-color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 15px;
-    padding: 15px;
+
+.corpo{
+    display: flex;
+    border: black;
+    background-color: brown;
+    justify-content: center;
 }
+
+.cabeca{
+    /* flex-direction: row; */
+    background-color: black;
+    border: black;
+    /* align-self: stretch; */
+    
+}
+
+.visor{
+    background-color: aliceblue;
+}
+.calculadora{
+    background-color: aqua;
+    width: 400px;
+    height: 500px;
+    align-self: center;
+    /* margin: 220px; */
+    /* align-items: flex-end; */
+
+}
+
 .botao{
     width: 50px;
     height: 50px;
-    font-size: 25px;
-    cursor: pointer;
+    background-color: antiquewhite;
+    border: 1px, black;
     margin: 2px;
+    /* align-content: stretch; */
+    
 }
-.botao:hover{
-    color: aliceblue;
-    background-color: black;
-}
-.colspan{
-    width: 106px;
-    height: 50px;
-    font-size: 25px;
-    cursor: pointer;
-}
-.colspan:hover{
-    color: aliceblue;
-    background-color: black;
-}
-.rowspan{
-    width: 50px;
-    height: 106px;
-    font-size: 25px;
-    cursor: pointer;  
-}
-.rowspan:hover{
-    color: white;
-    background-color: black;
-}
-#resultado{
+
+.fila{
     display: flex;
-    background-color: white;
-    width: 100%;
-    height: 40px;
-    font-size: 25px;
-    color: black;
-}
-/* .titulo{
-    display: flex;
+    background-color: chartreuse;
     justify-content: center;
-    color: white;
-} */
-#marca{
-    color: black;
-    display: flex;
-    justify-content: center;
-    background-color: white;
-}
-.corpo{
-    background-image: url(../Calculadora-/img/Anos90.jpg);
 }

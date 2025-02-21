@@ -10,110 +10,83 @@
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    align-items: center;
-    
+    align-items: center;  
 }
-/* /*  */
-.marca{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.calculadora div:nth-child(1){
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
     background-color: rgb(218, 9, 9);
-    /* border: black; */
-    width: 300px;
+    width: 1000px;
     height: 60px;
-    margin: 2px;
+    /* margin: 2px; */
     } 
 
-.visor{ 
-    /* display: flex; */
+.calculadora div:nth-child(2){ 
     background-color: rgb(221, 15, 15);
     margin: 2px;
-    /* flex-basis: 500px; */
-    /* flex-wrap: nowrap; */
     width: 300px;
     height: 60px;
     }
 .calculadora{
     display: flex;
     flex-wrap: wrap;    
-    /* align-items: center; */
-    justify-content: space-around;
+    /* justify-content: space-evenly; */
     background-color: rgb(0, 0, 0);
     width: 16vw;
     height: 60vh;
-    /* border: 2px, black; */
-    /* gap: 5px; */
-    /* padding: 5px; */
-    /* margin: 2px; */
-    /* padding: 2px; */
-    /* justify-content: center; */
-    /* flex-direction: column; */
-    /* align-content: center; */
-    /* justify-content: space-evenly; */
     padding: 15px;
-    /* align-self: flex-end; */
-
+    margin: 5px;
+    /* align-content: stretch; */
+    
+    /* align-content: start; */
+    /* align-self: self-end; */
+    /* flex-direction: column; */
 }
 
 .botao{
-    display: flex ;
-    padding: 1px;
-    /* justify-content: space-aro; */
     height: 50px;
     width:  50px;
     background-color: antiquewhite;
-    /* border: 1px, black; */
-    margin: 1px;
-
-
-    
+    margin: 3px;
+    padding: 1px;
+    /* align-self: flex-start; */
+    /* align-items: center; */
 }
 
-/* .fila{
-    display: flex;
-    width: 100%;
-    display: flex;
-    background-color: chartreuse;
-    justify-content: space-between;
-    border: 2%, black;
-} */
 
-.especial1{
-    
-    display: flex ;
+.calculadora div:nth-child(18){
     padding: 1px;
-    /* justify-content: space-aro; */
+    /* flex-basis: 100px; */
     height: 50px;
     width:  50px;
-    background-color: antiquewhite;
-    /* border: 1px, black; */
-    margin: 1px;
-
+    background-color: rgb(226, 135, 16);
+    margin: 3px;
+    /* flex-grow: 1; */
+    /* align-self: stretch; */
 }
 
-.especial2{ 
-    display: flex ;
+.calculadora div:nth-child(19){ 
     padding: 1px;
-    /* justify-content: space-aro; */
+    margin: 3px;
     height: 50px;
     width:  50px;
-    background-color: antiquewhite;
-    /* border: 1px, black; */
-    margin: 1px;
-
+    background-color: rgb(207, 22, 124);
+    align-self: stretch;
+   /* align-content: start; */
+    /* flex-grow: 1; */
+    /* flex-basis: 108px;  */
 }
 
-.especial3{
-    
-    display: flex ;
-    padding: 1px;
-    /* justify-content: space-aro; */
-    height: 50px;
+.calculadora div:nth-child(20){
+    /* padding: 1px; */
+    height: 5opx;
     width:  50px;
-    background-color: antiquewhite;
-    /* border: 1px, black; */
-    margin: 1px;
-
-
+    background-color: rgb(73, 12, 241);
+    margin: 3px;
+    /* align-content: stretch; */
+    /* align-self: flex-end; */
+    align-self: stretch;
+    /* flex-grow: 1; */
 }
+
